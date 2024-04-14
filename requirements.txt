@@ -1,0 +1,10 @@
+transformers
+torch
+sentence-transformers
+numpy
+tqdm
+sentencepiece
+protobuf
+datasets
+pandas
+pyarrow
