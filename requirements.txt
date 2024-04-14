@@ -8,3 +8,4 @@ protobuf
 datasets
 pandas
 pyarrow
+ipywidgets
