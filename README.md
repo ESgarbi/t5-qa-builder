@@ -36,12 +36,12 @@ print(decoded)
 
 ## Custom pipeline
 
-#### The easiest way to generate text with more control and without length restrictions is by using a custom pipeline. The similarity_threshold is used to increase and decrease the similarity of questions returned. Additionally, the stride argument is used to overlap data in the context parts.
+The easiest way to generate text with more control and without length restrictions is by using a custom pipeline. The similarity_threshold is used to increase and decrease the similarity of questions returned. Additionally, the stride argument is used to overlap data in the context parts.
 ```shell
 pip install git+https://github.com/ESgarbi/t5-qa-builder
 ```
 
-#### Run the custom pipeline. Weights will be downloaded from the HF hub automatically. All special tokens will be handled internally, no need to supply the <qa_builder_context> token to initialise the task.
+Run the custom pipeline. Weights will be downloaded from the HF hub automatically. All special tokens will be handled internally, no need to supply the <qa_builder_context> token to initialise the task.
 
 ```python
 
